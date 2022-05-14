@@ -1,12 +1,13 @@
 Algoritmo "desafio1"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+//Curso     : Desenvolvedor FullStack
+// Disciplina   : [Nível 1: Desenvolvendo essa caica preta]
+// Aluno   : Heger Valesin - Matricula:202204474646
+// Descrição   : Algoritimo implantado para imprimir a soma de todos
+// os numerio primos menores e iguais a um determinado numero primo.
 // Data atual  : 14/05/2022
 Var
 // Seção de Declarações das variáveis 
-contc,conti,valor,primo, resultado: inteiro
+contc,conti,valor,primo,resultado: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
