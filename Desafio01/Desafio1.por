@@ -1,28 +1,27 @@
-programa 
-{
-	funcao inicio() 
-	{
-		inteiro numero, resultado, contadorc, conadori, primo
-		
-		escreva("Informe o número desejado: ")
-		leia(numero)
-	
-		para (contador = 1; contador <= numero; contador++) 
-		{
-			resultado++  
-			escreva (resultado , "\n")
-		}
-	}
-}
+programa{
 
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 200; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
+  funcao inicio(){
+  
+    inteiro contc,conti,valor,primo,resultado=0
+
+    escreva("Digite um valor: ")
+    leia(valor)
+    
+    para (contc=1; contc<=valor; contc++){
+
+    primo = 0
+    
+    para (conti=1; conti<=contc; conti++ ){
+        se (contc % conti == 0){
+            primo = primo+1
+        }
+    }
+    
+    se (primo==2) {
+        escreva("O número ", contc, " é primo \n")
+        resultado = resultado + contc
+    }
+    }
+    escreva ("A soma de todos os números primos menores e iguais a ", valor, " é: ", resultado)
+  }
+}
